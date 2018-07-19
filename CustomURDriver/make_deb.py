@@ -6,7 +6,7 @@ hackish file to crreate deb from setup.py
 import subprocess
 from email.utils import formatdate
 
-import urx
+from CustomURDriver.examples import urx
 
 DEBVERSION = urx.__version__
 
